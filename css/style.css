@@ -1,0 +1,1360 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+}
+
+p{
+	text-align: justify;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.1vw;
+}
+
+a{
+	text-decoration: none;
+}
+/*contenido principal de la página div ajuste pc*/
+
+#item__img__home{
+	margin: auto 150px 70px  100px ;
+}
+
+
+/*barra de navegación tablets y pc*/
+
+#navbar{
+	background-color: #C46506;
+	width: 100%;
+	height: 70px;
+	z-index: 1;
+	position: fixed;
+	box-shadow: 0px 0px 10px 3px #5d3003;
+}
+
+.navbar__movile__icon{
+	display: none;
+}
+
+.navbar__button{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	list-style: none;
+	height: 70px;
+	width: 80%;
+	min-width: 400px;
+	margin: 0px auto;
+}
+
+.navbar__button__icon{
+	margin: auto 20px;
+	padding: 10px;
+	max-width: 100px;
+	width: 100%;
+	height: 40px;
+	background-color: #ffad12;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 100%;
+	font-weight: 600;
+	letter-spacing: 2px;
+	box-shadow: 0px 1px 10px 0px #bf7c00;
+}
+
+.navbar__button__icon:hover{
+	background-color: #bf7d00;
+	color: #ffffff;
+	box-shadow: 0px 4px 10px 0px #603e00;
+}
+
+.navbar__button__icon>a{
+	text-decoration: none;
+	color: #ffffff;
+	margin: auto;
+}
+
+#logo__navbar{
+	height: 70px;
+	z-index: 2;
+	position: fixed;
+	margin: 0px 100px;
+}
+
+
+
+/*contenido principal de la página*/
+
+#img__home{
+	width: 100%;
+	height: 800px;
+	background: url(contacto.jpg) center right -190px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #ffad12;
+	display: flex;
+}
+
+
+.title__home{
+	font-size: 5vw;
+	margin-bottom: 10px;
+}
+
+.subtitle__home{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 3.5vw;
+	margin-bottom: 10px;
+}
+
+/*contenido acerca de nosotros*/
+
+#container__about{
+	width: 90%;
+	height: 100%;
+	margin: -40px auto 0px;
+	background-color: #ed8a3a;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0px -2px 10px 0px #582c08, 0px 6px 10px 0px #582c08;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+
+
+.items__container__about{
+	margin: 0px 40px;
+	padding: 10px;
+	width: 100%;
+	min-width: 350px;
+	max-width: 800px;
+	
+}
+
+.items__container__about:first-child{
+	margin: 20px auto ;
+	flex: 1;
+
+}
+
+.items__container__about:nth-child(2){
+	margin: 20px auto ;
+	flex: 1;
+
+}
+
+
+#video__home{
+	width: 100%;
+	min-width: 350px;
+}
+
+.icon__about{
+	width: 100%;
+	margin: 0px auto;
+}
+
+.text__icon{
+	text-align: center;
+	font-weight: 800;
+	color: #000000;
+	font-size: 18px;
+}
+
+
+.scroll__items__container__about{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	max-height: 100%;
+	justify-content: space-evenly;
+}
+
+.scroll__about{
+	background-color: #ffad12;
+	border-radius: 10px;
+	margin: 10px 20px;
+	padding: 10px;
+	min-width: 250px;
+	max-width: 300px;
+	min-height: 250px;
+	max-height: 300px;
+	text-align: center;
+	box-shadow: 0px 0px 10px 2px #9f6800;
+
+}
+
+/*
+.scroll__items__container__about::-webkit-scrollbar{
+	display: none;
+}*/
+
+/*contenido del área de busqueda e historia*/
+.bckg__section{
+	background-color: #ffc897;
+	padding: 25px;
+	height: 250px;
+	display: flex;
+}
+
+.bckg__section>article{
+	margin: auto;
+	width: 80%;
+}
+
+/*search zona*/
+
+#search__container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	height: 100%;
+	width: 80%;
+	margin: auto;
+}
+
+#search__img{
+	flex: 1;
+	min-width: 400px;
+	padding: 10px;
+
+}
+
+#search__img>img{
+	width: 100%;
+}
+
+#search__input{
+	flex: 1;
+	margin: auto;
+	width: 100%;
+	text-align: right;
+	min-width: 400px;
+	padding: 10px;
+}
+
+#search__input>select{
+	width: 100%;
+	height: 40px;
+	margin: 20px 0px;
+	border-color: #afafaf;
+	color: #afafaf;
+}
+
+/*estilo botton*/
+
+.button__yellow{
+	padding: 5px;
+	background-color: #ffad12;
+	height: 40px;
+	width: 150px;
+	color: #ffffff;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px 0px #bf7c00;
+
+}
+
+.button__yellow:hover{
+	background-color: #bf7d00;
+	color: #ffffff;
+	box-shadow: 0px 4px 10px 0px #603e00;
+}
+
+
+/*info selección*/
+
+.info__container{
+	background-color: #ffc897;
+	height: 100%;
+	width: 100%;
+	box-shadow: 0px 10px 10px -9px inset, 
+				0px -10px 10px -9px inset;
+	padding: 20px;
+	
+}
+
+.bckg__section1{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+	
+}
+
+.items__backg__section:nth-child(1){
+	width: 100%;
+	flex: 1.2;
+	display: flex;
+}
+
+.items__backg__section>img{
+	width: 100%;
+	max-height: 300px;
+	text-align: right;
+	object-fit: cover;
+
+}
+
+.items__backg__section:nth-child(2){
+	width: 60%;
+	flex: 1;
+}
+
+.items__backg__section:nth-child(3){
+	width: 100%;
+
+}
+
+.items__backg__section>p{
+	padding: 10px 0px;
+
+}
+
+/*tabla*/
+
+.table__selection{
+	width: 100%;
+	text-align: left;
+	margin: auto 0px;
+	
+}
+
+.title__caption{
+	text-align: center;
+	padding: 8px;
+	font-size: 3.5vw;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 600;
+}
+
+.text__table{
+	padding: 0px 5px;
+	font-size: 1.5vw;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 600;
+	border-left: 3px solid #ed8a3a;
+	text-align: center;
+
+}
+
+.text__table:first-child{
+	border-left: none;
+}
+
+
+/*footer*/
+
+footer{
+	
+	height: 100%;
+	width: 100%;
+	background-color: #C46506;
+}
+
+#footer__container{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin: auto;
+}
+
+.social__media{
+	width: 50%;
+	margin: auto;
+	flex: 1;
+}
+
+.social__media>ul{
+	display: flex;
+	list-style: none;
+
+}
+
+.social__media>ul>li{
+	margin: 5px 10px;
+	
+}
+
+.social__media:nth-child(2)>ul{
+	flex-direction: column;
+}
+
+.social__media:nth-child(2)>ul>li{
+	text-align: right;
+	margin: 10px;
+}
+
+
+.icon__social__media{
+	width: 100%;
+	height: 40px;
+}
+
+#text__copyright{
+	width: 100%;
+	color: #0008;
+}
+
+#text__copyright>p{
+	text-align: center;
+	margin: 5px;
+}
+
+.legal{
+	color: #0008;
+	text-decoration: none;
+	font-family: 'Varela Round', sans-serif;
+}
+
+
+/*styles pag servicios*/
+
+#img__servicios__container{
+	width: 100%;
+	height: 750px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #ffad12;
+	display: flex;
+	margin: 0px auto;
+}
+
+#img__servicios{
+	margin: 180px 40px;
+	display: block;
+	float: right;
+	width: 100%;
+	height: 100%;
+	min-width: 300px;
+	min-height: 450px;
+	max-width: 450px;
+	max-height: 600px;
+	box-shadow: 0px 1px 10px 2px #9f6700;
+
+}
+
+/*boton servicios pc*/
+
+.button__orange__table{
+	padding: 5px;
+	background-color: #C46506;
+	height: 40px;
+	width: 100%;
+	color: #ffffff;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px 0px #f78008;
+	margin: 10px auto;
+
+}
+
+.button__orange__table:hover{
+	background-color: #5d3003;
+	color: #ffffff;
+	box-shadow: 0px 4px 10px 0px #603e00;
+}
+
+
+
+#img__servicios>img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 88% 100%;
+}
+
+/* Página servicios -> cuidado de mascotas*/
+
+.container__servicios{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	height: 100%;
+	width: 80%;
+	margin: 70px auto;
+}
+
+.items__container__servicios{
+	width: 100%;
+	flex: 1;
+	min-width: 150px;
+	max-width: 350px;
+	min-height: 150px;
+	max-height: 350px;
+	margin: 20px auto;
+	padding: 10px;
+
+}
+
+.items__container__servicios>img{
+	width: 100%;
+	margin: 10px;
+}
+
+.button__container__servicios{
+	width: 100%;
+	display: flex;
+}
+
+.button__container__servicios>button{
+	margin: 20px auto;
+}
+
+/*boton oculto en formato pc*/
+
+.button__container__servicios>button{
+	display: none;
+}
+
+/* Página servicios -> hotel*/
+
+.container__hotel__subtitle{
+	margin: 20px auto;
+	text-align: left;
+	width: 80%;
+
+}
+
+.container__hotel__info{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100%;
+	width: 80%;
+	max-height: 400px;
+	margin: auto;
+}
+
+.items__container__hotel{
+	width: 100%;
+	min-height: 300px;
+	flex: 1.5;
+	margin: 10px;
+}
+
+#img__movile{
+	display: none;
+}
+
+.items__container__hotel>img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;	
+}
+
+
+
+/*tabla hotel*/
+
+.items__container__hotel:nth-child(2){
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	max-width: 450px;
+}
+
+.table__selection__hotel{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 15px;
+	border: 3px solid #ffad12;
+	border-collapse: collapse ;
+	
+	text-align: left;
+	
+	
+}
+
+.title__caption__hotel{
+	text-align: center;
+	font-size: 2.5vw;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 600;
+	border:  solid #ffad12;
+	background-color: #ed8a3a;
+}
+
+.text__table__hotel{
+	padding: 0px 5px;
+	font-size: 1.5vw;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 600;
+	border:  solid #ffad12;
+	text-align: center;
+
+}
+
+/*Página servicios:  adiestramiento*/
+
+.bckg__section__adiestramiento{
+	background-color: #ffc897;
+	padding: 25px;
+	height: 100%;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 20px auto 0px;
+}
+
+.bckg__section__adiestramiento>article{
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+
+/*estilo botton*/
+
+.button__yellow__table{
+	padding: 5px;
+	background-color: #ffad12;
+	height: 40px;
+	width: 100%;
+	color: #ffffff;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px 0px #bf7c00;
+	margin: 0px auto;
+
+}
+
+.button__yellow__table:hover{
+	background-color: #bf7d00;
+	color: #ffffff;
+	box-shadow: 0px 4px 10px 0px #603e00;
+}
+
+
+.button__yellow__adiestramiento{
+	padding: 5px;
+	background-color: #ffad12;
+	height: 40px;
+	width: 150px;
+	color: #ffffff;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px 0px #bf7c00;
+	margin: 20px auto;
+}
+
+.button__yellow__adiestramiento:hover{
+	background-color: #bf7d00;
+	color: #ffffff;
+	box-shadow: 0px 4px 10px 0px #603e00;
+}
+
+
+/*Página contacto-> contacto*/
+
+.container__bckg{
+	width: 100%;
+	height: 100%;
+	background-color: #ffad12;
+	background-image: url(icon.png);
+	background-repeat: no-repeat;
+	background-size: 30% 92%;
+	background-position: right 70px;
+
+
+}
+
+.container__form{
+	width: 80%;
+	height: 800px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0px auto;
+}
+
+.items__container__contact:nth-child(1){
+	width: 100%;
+	height: 100%;
+	max-height: 800px;
+	flex: 2;
+	margin: 10px;
+}
+
+.items__container__contact:nth-child(2){
+	margin: 150px 10px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	min-width: 300px;
+	min-height: 450px;
+	max-width: 450px;
+	max-height: 600px;
+	box-shadow: 0px 1px 10px 2px #9f6700;
+	flex: 1;
+}
+
+.items__container__contact>img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 60% 30%;
+}
+
+.title__contact{
+	font-size: 5vw;
+	margin: 80px 10px 10px 5px;
+}
+
+.form__contact{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.form__contact>label{
+	min-width: 330px;
+	max-width: 650px;
+	width: 100%;
+	margin: 5px 10px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.5vw;
+	font-weight: 600;
+	flex: 1;
+}
+
+.form__contact>label>input{
+	width: 100%;
+	height: 35px;
+	border: none;
+	padding: 10px;
+	box-shadow: 0px 2px 4px 1px #603e00;
+	font-family: 'Varela Round', sans-serif;
+	flex: 1;
+}
+
+.form__contact>textarea{
+	margin: 20px 10px;
+	width: 100%;
+	height: 150px;
+	border: none;
+	padding: 10px;
+	box-shadow: 0px 2px 4px 1px #603e00;
+	font-family: 'Varela Round', sans-serif;
+	resize: none;
+}
+
+.button__orange{
+	padding: 5px;
+	background-color: #C46506;
+	height: 40px;
+	width: 150px;
+	color: #ffffff;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px 0px #f78008;
+	margin: 5px auto 0px 5px;
+}
+
+.button__orange:hover{
+	background-color: #5d3003;
+	color: #ffffff;
+	box-shadow: 0px 4px 10px 0px #603e00;
+}
+
+
+/*Página contacto-> mapa*/
+
+.container__maps{
+	width: 100%;
+	height: 400px;
+}
+
+/*Página contacto-> datos Dogscamp*/
+
+.container__info{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 20px auto;
+}
+
+.container__info>div>h3{
+	width: 100%;
+	margin: 10px 20px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 2vw;
+	font-weight: 700;
+}
+
+.container__info>div>p{
+	width: 100%;
+	margin: 10px 20px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1vw;
+	font-weight: 500;
+}
+
+
+/*styles para movil*/
+/*barra de navegacion movil*/
+
+@media only screen and (max-width: 767px ) {
+	
+	#navbar{
+		background-color: #C46506;
+		width: 100%;
+		height: 70px;
+		z-index: 1;
+		position: fixed;
+		bottom: 0px;
+		box-shadow: 0px 0px 10px 3px #5d3003;
+	}
+
+	.navbar__movile__icon{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.navbar__movile__icon > li{
+		list-style: none;
+	}
+
+	.icon__navbar{
+		width: 50px;
+		height: 50px;
+		margin: 8px 10px;
+	}
+
+	#logo__navbar{
+		height: 70px;
+		z-index: 2;
+		position: fixed;
+		margin: 0px 8px;
+		background-color: #ffad12;
+		padding: 2px;
+		border-radius: 0px 0px 5px 5px;
+	}
+
+	/*contenedor título home*/
+
+	#img__home{
+		height: 600px;
+	}
+
+	#item__img__home{
+		margin: auto 150px 70px  50px ;
+	}
+
+	/*margen contenido nosotros*/
+
+	.items__container__about{
+		margin: 10px auto;
+		padding: 10px 5px;
+		width: 100%;
+		flex: 1;
+		min-width: 370px;
+		max-width: 80%;
+	}
+
+	.items__container__about:first-child{
+		margin: auto;
+	}
+
+	/*scroll contenido servicios*/
+
+	.scroll__items__container__about{
+		display: flex;
+		flex-direction: row;
+		overflow: auto;
+		width: 100%;
+		max-height: 100%;
+		margin-right: -10px;
+		padding-right: 10px;
+		justify-content: flex-start;
+	}
+
+	/*contenido del área de busqueda e historia*/
+	.bckg__section>article{
+		margin: auto;
+		width: 100%;
+	}
+
+	/*search zona*/
+
+	#search__input{
+		flex: 1;
+		margin: 10px auto;
+		width: 100%;
+		text-align: right;
+		min-width: 400px;
+		padding: 10px;
+	}
+
+	/*info selección*/
+
+	.bckg__section1{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		
+	}
+
+	.items__backg__section:nth-child(1){
+		width: 100%;
+		flex: 1.2;
+		display: flex;
+	}
+
+
+	.items__backg__section:nth-child(2){
+		width: 60%;
+		flex: 1;
+	}
+
+	.items__backg__section:nth-child(3){
+		width: 100%;
+	}
+
+	.items__backg__section>p{
+		padding: 10px 0px;
+
+	}
+
+	.items__backg__section>img{
+		width: 100%;
+		max-width: 550px;
+		height: 100%;
+		text-align: right;
+
+	}
+
+	/*tabla*/
+
+	.table__selection{
+		width: 100%;
+		text-align: left;
+		margin: auto;
+	}
+
+	.title__caption{
+		text-align: left;
+		font-family: 'Varela Round', sans-serif;
+		font-weight: 600;
+	}
+
+	.text__table{
+		padding: 0px 5px;
+		font-family: 'Varela Round', sans-serif;
+		font-weight: 600;
+		border-left: 3px solid #ed8a3a;
+		text-align: left;
+
+	}
+
+	.text__table:first-child{
+		border-left: none;
+	}
+
+	/*footer*/
+	
+	#text__copyright{
+		width: 100%;
+		margin-bottom: 80px;
+	}
+
+	.social__media>ul>li{
+		margin: 5px auto;	
+	}
+
+	#footer__container{
+		width: 100%;
+	}
+
+	/*style font-size text movile*/
+	
+	p{
+		font-size: 2.8vw;
+	}
+	.title__home{
+		font-size: 10vw;
+	}
+
+	.subtitle__home{
+		font-size: 6vw;
+	}
+
+	.title__caption{
+		font-size: 6vw;
+	}
+
+	.text__table{
+		font-size: 3vw;
+
+	}
+
+	.title__caption__hotel{
+		font-size: 4vw;
+	}
+
+	.text__table__hotel{
+		font-size: 3vw;
+
+	}
+
+	/*style servicios*/
+
+	#img__servicios__container{
+		width: 100%;
+		height: 600px;
+		background: url(servicios.jpg) center right -100px;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+	}
+
+	#img__servicios{
+		display: none;
+	}
+
+	.button__orange__table{
+		display: none;
+	}
+
+	/*Página servicios--> cuidado de mascotas*/
+
+	.container__servicios{
+		height: 100%;
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.button__container__servicios>button{
+		padding: 5px;
+		background-color: #ffad12;
+		height: 40px;
+		width: 150px;
+		color: #ffffff;
+		font-family: 'Varela Round', sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		letter-spacing: 2px;
+		border: none;
+		border-radius: 5px;
+		box-shadow: 0px 1px 10px 0px #bf7c00;
+		display: block;
+
+	}
+
+	.button__container__servicios>button:hover{
+		background-color: #bf7d00;
+		color: #ffffff;
+		box-shadow: 0px 4px 10px 0px #603e00;
+	}
+
+	/* Página servicios -> hotel*/
+
+	.container__hotel__subtitle{
+		text-align: center;
+	}
+
+	.container__hotel__info{
+		height: 100%;
+		width: 100%;
+		max-height: 400px;
+		margin: auto;
+	}
+
+	.items__container__hotel{
+		width: 100%;
+		min-height: 300px;
+		flex: 1;
+		margin: 10px;
+	}
+
+	#img__pc{
+		display: none;
+	}
+
+	#img__movile{
+		display: block;
+	}
+
+	.items__container__hotel>img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	/*Página servicios:  adiestramiento*/
+
+	.bckg__section__adiestramiento{
+		width: 100%;
+	}
+	
+	.bckg__section__adiestramiento>article{
+		width: 100%;
+	}
+
+
+	/*Página contacto-> contacto*/
+
+	.title__contact{
+		font-size: 10vw;
+	}
+
+	.container__bckg{
+		background-size: 65% 75%;
+		background-position: right 160px;
+	}
+
+	.items__container__contact:nth-child(2){
+		display: none;
+	}
+
+	.container__form{
+		width: 100%;
+	}
+
+	.form__contact>label{
+		font-size: 4vw;
+	}
+
+	.button__orange{
+		margin: 20px auto;
+	}
+
+	/*Página contacto-> datos Dogscamp*/
+
+	.container__info{
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+	}
+
+	.container__info>div>h3{	
+		font-size: 6vw;
+	}
+
+	.container__info>div>p{
+		font-size: 4vw;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:  1024px){
+	/*style font-size text tablets*/
+
+	p{
+		font-size: 2.8vw;
+	}
+	.title__home{
+		font-size: 10vw;
+	}
+
+	.subtitle__home{
+		font-size: 6vw;
+	}
+
+	.title__caption{
+		font-size: 6vw;
+	}
+
+	.text__table{
+		font-size: 3vw;
+
+	}
+
+	.title__caption__hotel{
+		font-size: 2.5vw;
+	}
+
+	.text__table__hotel{
+		font-size: 2vw;
+
+	}
+
+	/*navbar */
+	.navbar__button__icon{
+		margin: auto 10px;
+		padding: 10px;
+		max-width: 90px;
+		width: 100%;
+		height: 35px;
+		font-size: 80%;
+	}
+
+	/*contenido acerca de nosotros*/
+
+	#container__about{
+		width: 90%;
+		height: 100%;
+		margin: -40px auto 0px;
+		background-color: #ed8a3a;
+		border-radius: 10px 10px 0px 0px;
+		box-shadow: 0px -2px 10px 0px #582c08, 0px 6px 10px 0px #582c08;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 20px;
+	}
+
+
+	/*style servicios*/
+
+	#img__servicios__container{
+		width: 100%;
+		height: 600px;
+		background: url(servicios.jpg) center right -100px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: #ffad12;
+	}
+
+	#img__servicios{
+		display: none;
+	}
+
+	.button__orange__table{
+		display: none;
+	}
+
+	/*Página servicios--> cuidado de mascotas*/
+
+	.container__servicios{
+		height: 100%;
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.button__container__servicios>button{
+		padding: 5px;
+		background-color: #ffad12;
+		height: 40px;
+		width: 150px;
+		color: #ffffff;
+		font-family: 'Varela Round', sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		letter-spacing: 2px;
+		border: none;
+		border-radius: 5px;
+		box-shadow: 0px 1px 10px 0px #bf7c00;
+		display: block;
+
+	}
+
+	.button__container__servicios>button:hover{
+		background-color: #bf7d00;
+		color: #ffffff;
+		box-shadow: 0px 4px 10px 0px #603e00;
+	}
+
+	/*Página servicios:  adiestramiento*/
+
+	.bckg__section__adiestramiento{
+		width: 100%;
+	}
+	
+	.bckg__section__adiestramiento>article{
+		width: 100%;
+	}
+
+	/*Página contacto-> contacto*/
+
+	.container__bckg{
+		width: 100%;
+		height: 100%;
+		background-color: #ffad12;
+		background-image: url(icon.png);
+		background-repeat: no-repeat;
+		background-size: 40% 80%;
+		background-position: right 120px;
+
+
+	}
+
+	.items__container__contact:nth-child(2){
+		display: none;
+	}
+
+	.container__form{
+		width: 80%;
+		height: 600px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 0px auto;
+	}
+
+	.form__contact>label{
+		font-size: 2vw;
+	}
+
+	.button__orange{
+		margin: 20px auto;
+	}
+
+	/*Página contacto-> datos Dogscamp*/
+
+	.container__info{
+		width: 80%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 20px auto;
+	}
+
+	.container__info>div>h3{	
+		font-size: 4vw;
+	}
+
+	.container__info>div>p{
+		font-size: 2vw;
+	}
+
+	.container__info>div{
+		width: 50%;
+	}
+
+}
